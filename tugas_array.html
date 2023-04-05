@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //soal no 1
+        let array2 = [5, 2, 4, 1, 3, 5];
+        array2.sort(function (a, b) {
+        return a - b;
+        });
+        document.writeln(array2);
+
+        //soal no 2
+        let array3 = ["selamat", "anda", "melakukan", "perulangan", "array", "dengan", "for"];
+
+        for (let i = 0; i < array3.length; i++) {
+            document.writeln(array3[i]);
+            }
+
+        //soal no 3
+        let array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        for (let i = 0; i < array4.length; i++) {
+            if (array4[i] % 2 === 0) {
+                document.writeln(array4[i]);
+            }
+        }
+
+        //soal no 4
+        let kalimat = ["saya", "sangat", "senang", "belajar", "javascript"];
+            let hasil = kalimat.join(" ");
+            document.writeln(hasil);
+
+        //soal no 5
+        let sayuran = [];
+
+            sayuran.push("Kangkung");
+            sayuran.push("Bayam");
+            sayuran.push("Buncis");
+            sayuran.push("Kubis");
+            sayuran.push("Timun");
+            sayuran.push("Seledri");
+            sayuran.push("Tauge");
+
+            document.writeln(sayuran);
+
+    </script>
+</body>
+</html>
